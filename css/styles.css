@@ -163,8 +163,9 @@ body {
 #DULCEDELECHE,
 #CHORIPAN,
 #PIZZAARGENTINA {
-  border: 5px solid hwb(216 7% 71%);
+  border: solid 1.5px #041649;
   font-family: Arial, sans-serif;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0.3);
 }
 
 .contenedor {
