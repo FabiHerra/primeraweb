@@ -344,7 +344,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
               Gracias, <?= h($customerName) ?>. Tu pedido fue procesado con el codigo
               <strong><?= h($receiptCode) ?></strong> y el monto total fue
               <strong>CRC <?= number_format($total, 0, '.', ',') ?></strong>.
-              El pedido y el pago simulado quedaron guardados en MySQL.
+              Datos guardados en MySQL.
             </p>
             <ul class="order-list">
               <?php foreach ($orderItems as $item): ?>
